@@ -1,0 +1,33 @@
+{
+    "name": "edudobay/php-http-response-assertions",
+    "description": "PHPUnit assertions for HTTP responses (PSR-7 and Symfony HttpFoundation).",
+    "keywords": ["testing", "phpunit", "http"],
+    "type": "library",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "guzzlehttp/psr7": "^2.4",
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Edudobay\\HttpResponseAssertions\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Edudobay\\HttpResponseAssertions\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Eduardo Dobay",
+            "email": "edudobay@gmail.com"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    }
+}
